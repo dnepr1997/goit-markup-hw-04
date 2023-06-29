@@ -1,0 +1,335 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+:root {
+  --color1: #434455;
+  --color2: #2E2F42;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-list .link {
+    padding: 24px 0;
+}
+img {
+    display: block;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+   margin-right: 76px;
+}
+.address-list {
+    display: flex;
+    margin-right: 0;
+    gap: 40px;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation .logo {
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.logo > .span-a {
+    color: #2e2f42;
+}
+.list .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+.list .link:hover,
+.list .link:focus {
+    color: #404bbf;
+}
+/**
+  |============================
+  | address
+  |============================
+*/
+address {
+    font-style: normal;
+}
+.address-link {
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color1);
+    text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+
+.section-title {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.section-title .title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto 48px auto;
+}
+.section-title .order-service {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    border-radius: 4px;
+    min-width: 169px;
+}
+.section-title .order-service:hover,
+.section-title .order-service:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.list .caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.list .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color1);
+}
+.section-two .text {
+    width: 264px;
+    height: auto;
+}
+.section-two .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-two .list {
+    display: flex;
+    gap: 24px;
+}
+.section-two {
+    padding: 120px 0;
+}
+.section-two-li {
+    display: block;
+    width: calc((100% - 72px) / 4);
+}
+.section-three .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.section-three .list {
+    display: flex;
+    gap: 24px;
+}
+.section-three {
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.section-three-li {
+    display: block;
+    width: calc((100% - 48px) / 3);
+}
+.section-four {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.section-four .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.section-four .page {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+.section-four caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding-bottom: 72px;
+    margin-bottom: 8px;
+}
+.section-four .text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color1)
+}
+.section-four {
+    padding-bottom: 120px;
+}
+.section-four .list {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+}
+.people {
+    padding: 32px 16px;
+    text-align: center;
+}
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-link {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer .span-a {
+    color: #f4f4fd;
+}
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    width: 264px;
+    padding-bottom: 100px;
+}
+.list .button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid #e7e9fc
+}
+.list .button:hover,
+.list .button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+.list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.container-button .list {
+    display: flex;
+    margin: 0 0 72px 0;
+    justify-content: center;
+    gap: 24px;
+}
+.list-button {
+    gap: 24px
+}
+.box .item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+ .items {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+.items .title {
+    margin-bottom: 8px;
+}
+.box .item {
+    padding-left: 0;
+}
+.box {
+    padding: 96px 0 120px 0;
+}
+.box-li {
+    display: block;
+    width: calc((100% - 48px) / 3);
+}
+/**
+  |============================
+  | HIDDEN
+  |============================
+*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
