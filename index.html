@@ -60,7 +60,9 @@
       <section class="section-title">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button class="order-service" type="button">Order Service</button>
+          <button class="order-service" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-two">
@@ -461,5 +463,16 @@
         </div>
       </div>
     </footer>
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#x-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
