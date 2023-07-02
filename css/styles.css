@@ -237,6 +237,7 @@ address {
     background-color: #F4F4FD;
     border-radius: 4px;
     flex-shrink: 0;
+    margin-bottom: 8px;
 }
 /**
   |============================
@@ -339,15 +340,17 @@ address {
   |============================
 */
 .section-five {
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .section-five-title {
     text-align: center;
     color: var(--color2);
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;      text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-five .list {
     display: flex;
