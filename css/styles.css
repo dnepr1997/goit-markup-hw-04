@@ -55,6 +55,7 @@ p {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin: 0;
 }
 .header-list .link {
     padding: 24px 0;
@@ -70,6 +71,7 @@ header {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
    margin-right: 76px;
@@ -84,6 +86,7 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    padding: 24px 0;
 }
 .logo > .span-a {
     color: #2e2f42;
@@ -96,7 +99,8 @@ header {
     color: #2E2F42;
     text-decoration: none;
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px 0;
 }
 .active {
     color: #404BBF;
@@ -109,7 +113,7 @@ header {
     background-color: #404BBF;
     border-radius: 2px;
     position: absolute;
-    bottom: -20px;
+    bottom: -1px;
     left: 0;
 }
 .header-list-link:hover,
@@ -128,6 +132,7 @@ address {
     display: flex;
     margin-right: 0;
     gap: 40px;
+    margin: 0;
 }
 .address-link {
     list-style: none;
@@ -583,7 +588,7 @@ address {
     font-weight: 400;
     letter-spacing: 0.32px;
 }
-.box-list {
+.box-link {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /**
